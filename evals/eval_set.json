@@ -1,0 +1,24 @@
+{
+  "project": "INS-04",
+  "title": "CAT Claims Surge Portal",
+  "metric": [
+    "Throughput under surge (claims triaged/min)",
+    "Hardship/high-severity claims reaching an adjuster within target",
+    "Even adjuster load (no one > X% over mean)"
+  ],
+  "instructions": "Expand 'cases' to a meaningful set (10+). Each case has an input, the expected result, and why. Run your AI against these and report scores in the demo.",
+  "cases": [
+    {
+      "id": "case-001",
+      "input": "<a realistic input from this domain>",
+      "expected": "<the correct/grounded result>",
+      "notes": "<edge handled>"
+    },
+    {
+      "id": "case-002",
+      "input": "<an input the AI should REFUSE or flag>",
+      "expected": "<refusal / escalation / safe behaviour>",
+      "notes": "guardrail test"
+    }
+  ]
+}
